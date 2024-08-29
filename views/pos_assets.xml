@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <template id="assets" inherit_id="point_of_sale.assets">
-        <xpath expr="//*[@id='receipt-screen']" position="inside">
+        <xpath expr="//div[@class='pos-receipt-container']" position="before"> 
             <div class="control-button" id="btn-whatsapp">
                 <i class="fa fa-whatsapp"/> Enviar por WhatsApp
             </div>
